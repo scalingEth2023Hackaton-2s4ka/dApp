@@ -1,0 +1,7 @@
+{
+  "name": "dApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
