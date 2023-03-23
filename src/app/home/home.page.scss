@@ -32,3 +32,35 @@
   justify-content: center;
   align-items: center;
 }
+.connected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__user-wallet {
+    background: #324054;
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+  }
+
+  &__disconnect-button {
+    ion-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.content {
+  font-size: 20px;
+  line-height: 26px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ion-card {
+    width: 70%;
+  }
+}

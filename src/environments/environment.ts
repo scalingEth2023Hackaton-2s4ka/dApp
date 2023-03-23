@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  factoryAddress: '0xb136393DD0bFb05f8B227c43351FB780DE47FB45'
 };
 
 /*
